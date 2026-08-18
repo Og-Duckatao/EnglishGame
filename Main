@@ -295,14 +295,14 @@ public class Main {
         definitions.put("TIME LINE",
                 "Puritanism 1620-1770s; Neoclassic 1770s-early 1800s; Romanticism early 1800s-1870s; Realism 1850s-early 1900s; Regionalism 1884-early 1900s; Naturalism late 1800s-mid 1900s; Modernism 1920s-1945; Post-Modernism 1945-present.");
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter Word");
+        System.out.print("Enter Word: ");
         String input = scanner.nextLine().toUpperCase();
         String definition = definitions.get(input);
         if (definition != null) {
             System.out.println("\n" + input);
             System.out.println(definition);
         } else {
-            System.out.println("Word not found.");
+            System.out.println("Error");
         }
         scanner.close();
     }
