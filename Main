@@ -149,5 +149,6 @@ Public class Main{
     words.add(SURREALISM);
     words.add(SYMBOLISM);
     words.add(TRANSCENDENTALISM);
+    words.add(TIME LINE);
   }
 }
